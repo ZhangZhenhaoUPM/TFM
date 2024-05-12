@@ -31,13 +31,13 @@
                              or vertical.
         -->
         <param name="max_num_trapezoids" value="500" /> <!-- Permissive higher -->
-        <param name="elongation_factor" value="1.15" /> <!-- Permissive higher -->
-        <param name="whiteness_threshold" value="0.75" /> <!-- Permissive lower -->
+        <param name="elongation_factor" value="1.2" /> <!-- Permissive higher -->
+        <param name="whiteness_threshold" value="0.55" /> <!-- Permissive lower -->
         <param name="nms_threshold" value="5" /> <!-- Permissive lower -->
         <param name="lineImg_drawing_width" value="2" /> <!-- Permissive higher -->
         <param name="rects_min_area_factor" value="0.001" /> <!-- Permissive lower -->
         <param name="rects_max_area_factor" value="0.6" /> <!-- Permissive higher -->
-        <param name="compactness_threshold" value="0.4" /> <!-- Permissive lower -->
+        <param name="compactness_threshold" value="0.3" /> <!-- Permissive lower -->
         <param name="length_diff_threshold" value="0.08" /> <!-- Permissive lower -->
         <param name="angle_threshold" value="0.6" /> <!-- Permissive higher -->
         
@@ -45,7 +45,7 @@
         <param name="draw_graph" value="true" /> <!-- Turn off for performance -->
         <param name="draw_trapezoids" value="true" /> <!-- Turn off for performance -->
         <param name="rectImg_drawing_width" value="2" /> <!-- Aesthetics -->
-        <param name="execution_period" value="1.0" /> <!-- Aesthetics -->
+        <param name="execution_period" value="0.1" /> <!-- Aesthetics -->
 
     </node>
     
